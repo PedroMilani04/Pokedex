@@ -1,0 +1,93 @@
+.cartao-poke {
+    display: none; 
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: rgb(244, 244, 245);
+    border-radius: 10px;
+    max-height: 100%;
+}
+
+.cartao-topo {
+    
+    border-radius: 10px;
+    padding: 30px 40px 10px;
+}
+
+.cartao-info {
+    background-color: rgb(226, 224, 224);
+    border-radius: 10px;
+    padding: 30px 40px 10px;
+}
+
+.cartao-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome {
+    margin-bottom: 5px;
+}
+
+.tipo {
+    background-color: rgb(107, 205, 235);
+    border-radius: 15px;
+    padding: 2px 6px;
+}
+
+.detalhes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-img {
+    width: 380px;
+    height: 350px;
+}
+
+.cartao-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 80px 50px;
+    margin-top: -70px;
+}
+
+.cartao-img img {
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-info h3 {
+    font-size: 20px;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+}
+
+.cartao-poke.aberto {
+    display: block;
+}
+
+.cartao-poke.eletrico {
+    background-image: url("src/imagens/pokebola.png");
+    background-color: rgb(245, 232, 47);
+}
+
+.cartao-poke.grama {
+    background-color: rgb(27, 204, 20);
+}
+
+.cartao-poke.fogo {
+    background-color: rgb(243, 137, 17);
+}
+
+.cartao-poke.agua {
+    background-color: rgb(35, 107, 214);
+}
+
+.cartao-poke.fantasma {
+    background-color: rgb(107, 30, 126);
+}
+
+.cartao-poke.dragao {
+    background-color: rgb(36, 14, 161);
+}
