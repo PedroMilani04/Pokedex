@@ -67,27 +67,41 @@
     display: block;
 }
 
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos {
+    padding: 5px 0 0 0;
+}
+
 .cartao-poke.eletrico {
-    background-image: url("src/imagens/pokebola.png");
-    background-color: rgb(245, 232, 47);
+    background: rgb(255,218,0);
+background: radial-gradient(circle, rgba(255,218,0,1) 0%, rgba(241,187,19,1) 18%, rgba(246,236,20,1) 36%, rgba(233,224,22,1) 69%, rgba(241,255,100,1) 100%);
 }
 
 .cartao-poke.grama {
-    background-color: rgb(27, 204, 20);
+    background: rgb(19,187,0);
+background: radial-gradient(circle, rgba(19,187,0,1) 0%, rgba(148,237,10,1) 30%, rgba(26,250,5,1) 69%, rgba(22,233,135,1) 100%);
 }
 
 .cartao-poke.fogo {
-    background-color: rgb(243, 137, 17);
+    background: rgb(253,29,29);
+background: radial-gradient(circle, rgba(253,29,29,1) 0%, rgba(250,51,31,1) 21%, rgba(244,100,36,1) 46%, rgba(237,153,41,1) 74%, rgba(244,145,11,1) 94%, rgba(252,176,69,1) 100%);
 }
 
 .cartao-poke.agua {
-    background-color: rgb(35, 107, 214);
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(37,36,174,1) 19%, rgba(38,38,180,1) 39%, rgba(53,53,237,1) 56%, rgba(39,95,242,1) 79%, rgba(0,212,255,1) 100%);
 }
 
 .cartao-poke.fantasma {
-    background-color: rgb(107, 30, 126);
+    background: rgb(172,44,222);
+background: radial-gradient(circle, rgba(172,44,222,1) 0%, rgba(186,41,217,1) 18%, rgba(220,31,222,1) 36%, rgba(212,32,227,1) 69%, rgba(167,0,255,1) 100%);
 }
 
 .cartao-poke.dragao {
-    background-color: rgb(36, 14, 161);
+    background: rgb(37,51,171);
+background: radial-gradient(circle, rgba(37,51,171,1) 0%, rgba(118,41,217,1) 18%, rgba(77,25,208,1) 36%, rgba(122,24,240,1) 69%, rgba(247,4,241,1) 100%);
 }
