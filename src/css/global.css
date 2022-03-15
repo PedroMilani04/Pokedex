@@ -27,6 +27,9 @@ main {
     width: 220x;
     height: 210px;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
