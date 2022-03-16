@@ -1,0 +1,91 @@
+.center-line{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 150px;
+    background-color: #000000;
+    z-index: 1;
+}
+
+.first-circle{
+    position: fixed;
+    margin: auto;
+    left: -250px;
+    top: 0;
+    bottom: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 40%;
+    background-color: #000000;
+}
+
+.white-pokeball{
+    position: fixed;
+    margin: auto;
+    left: -150px;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+.line-pokeball{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 30px;
+    background-color: #000000;
+}
+
+.pokeball-circle-one{
+    position: fixed;
+    margin: auto;
+    left: -35px;
+    top: 0;
+    bottom: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: #000000;
+}
+
+.pokeball-circle-two{
+    position: fixed;
+    margin: auto;
+    left: -25px;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+.right-button-one{
+    position: fixed;
+    margin: auto;
+    right: 150px;
+    top: 0;
+    bottom: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+.right-button-two{
+    position: fixed;
+    margin: auto;
+    right: 220px;
+    top: 40px;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
