@@ -1,3 +1,7 @@
+*{
+    z-index: 100;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -9,6 +13,7 @@ main {
     align-items: center;
     justify-content: center;
     background-color: rgb(224, 28, 28);
+    position: relative;
 }
 
 .pokedex {
