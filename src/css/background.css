@@ -2,7 +2,7 @@
     position: fixed;
     margin: auto;
     top: 0;
-    bottom: 0;
+    bottom: 200px;
     width: 100vw;
     height: 150px;
     background-color: #000000;
@@ -14,7 +14,7 @@
     margin: auto;
     left: -250px;
     top: 0;
-    bottom: 0;
+    bottom: 200px;
     width: 500px;
     height: 500px;
     border-radius: 40%;
@@ -26,17 +26,18 @@
     margin: auto;
     left: -150px;
     top: 0;
-    bottom: 0;
+    bottom: 200px;
     width: 300px;
     height: 300px;
     border-radius: 100%;
     background-color: #ffffff;
 }
+
 .line-pokeball{
     position: fixed;
     margin: auto;
     top: 0;
-    bottom: 0;
+    bottom: 200px;
     width: 100vw;
     height: 30px;
     background-color: #000000;
@@ -47,7 +48,7 @@
     margin: auto;
     left: -35px;
     top: 0;
-    bottom: 0;
+    bottom: 200px;
     width: 70px;
     height: 70px;
     border-radius: 100%;
@@ -59,7 +60,7 @@
     margin: auto;
     left: -25px;
     top: 0;
-    bottom: 0;
+    bottom: 200px;
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -71,7 +72,7 @@
     margin: auto;
     right: 150px;
     top: 0;
-    bottom: 40px;
+    bottom: 240px;
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -83,9 +84,76 @@
     margin: auto;
     right: 220px;
     top: 40px;
-    bottom: 0;
+    bottom: 200px;
     width: 50px;
     height: 50px;
     border-radius: 100%;
     background-color: #ffffff;
+}
+
+.left-req-one{
+    position: fixed;
+    margin: auto;
+    bottom: 300px;
+    left: 270px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    transform: rotate(20deg);
+    background-color: #000000;
+}
+
+.left-req-two{
+    position: fixed;
+    margin: auto;
+    bottom: 200px;
+    left: 270px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    transform: rotate(20deg);
+    background-color: #000000;
+}
+
+.req-circle{
+    position: absolute;
+    margin: auto;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+.audio-lines{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    right: 250px;
+    bottom: 180px;
+    width: 200px;
+    height: 200px;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    transform: rotate(340deg);
+    background-color: #000000;
+}
+
+@media(max-width: 1350px){
+    .first-circle, .white-pokeball, .line-pokeball, .pokeball-circle-one, .pokeball-circle-two, .right-button-one, .right-button-two, .left-req-one, .left-req-two, .req-circle, .audio-lines{
+        display: none;
+    }
+    .center-line{
+        top: 0;
+        bottom: 0;
+    }
 }
