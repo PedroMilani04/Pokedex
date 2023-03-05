@@ -37,5 +37,32 @@ main {
     justify-content: center;
 }
 
+@media(max-width: 768px) {
+    main {
+        overflow-y: hidden;
+    }
+
+    
+}
+
+
+@media(max-width: 375px) {
+    .analogico {
+        margin-left: 04%;
+    }
+
+    .pokedex {
+        margin-left: 30px;
+        margin-right: 30px;
+        overflow-x: hidden;
+    }
+}
+
+@media(max-width: 320px) {
+    .pokedex {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
 
 
