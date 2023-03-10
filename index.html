@@ -15,9 +15,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,800;1,300&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <main>
 
         <div class="center-line"></div>
@@ -30,8 +36,8 @@
         <div class="right-button-two"></div>
 
         <div class="pokedex">
-            
-            <div class="cartoes-poke">
+
+            <div class="cartoes-poke" data-aos="flip-left" data-aos-duration="1200">
                 <div class="cartao-poke aberto eletrico" id="cartao-pikachu">
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -76,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-poke grama" id="cartao-bulbasaur">
+                <div class="cartao-poke grama" id="cartao-bulbasaur" >
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Bulbasaur</h2>
@@ -172,7 +178,7 @@
 
                 <div class="cartao-poke agua" id="cartao-gyarados">
                     <div class="cartao-topo">
-                        
+
                         <div class="detalhes">
                             <h2 class="nome">Gyarados</h2>
                             <span>#130</span>
@@ -186,7 +192,7 @@
                     </div>
 
                     <div class="cartao-info">
-                        
+
                         <div class="status">
                             <h3>Status</h3>
                             <ul>
@@ -205,7 +211,6 @@
                                 <ul>
                                     <li>Intimidate</li>
                                     <li>Moxie</li>
-                                    <li>Mold Breaker</li>
                                 </ul>
                             </div>
                             <div class="infos">
@@ -314,9 +319,9 @@
                 </div>
             </div>
 
-            <nav class="listagem">
-                <ul>
-                    <li class="pokemon ativo" id="pikachu">
+            <nav class="listagem" data-aos="fade-out" data-aos-duration="1200">
+                <ul >
+                    <li class="pokemon ativo" id="pikachu" >
                         <img src="src/imagens/cabeca-pikachu.png" alt="Pikachu">
                         <span>Pikachu</span>
                     </li>
@@ -343,14 +348,15 @@
                     <img src="src/imagens/analogico.png" alt="analogico" class="analogico">
                 </ul>
             </nav>
-            
+
         </div>
-        
+
     </main>
-   
+
     <script src="src/js/index.js">
 
     </script>
+    
 </body>
 
 </html>
